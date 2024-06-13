@@ -1,0 +1,63 @@
+------------------------------------------------------------------html-------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Caption and Source Link</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>CARS</h1>
+        <p>Some of my favorite cars </p>
+        <div class="image-container">
+            <img src="https://scalethumb.leparking.fr/unsafe/331x248/smart/https://cloud.leparking.fr/2021/11/24/00/34/chevrolet-camaro-2019-camero-zl1-with-720hp-stage-1-performance-package-cars-trucks-saint-john-kiji-black_8347217988.jpg" alt="Description of the image">
+            <img src="https://www.slashgear.com/img/gallery/heres-what-makes-the-toyota-supra-mk4-one-of-the-coolest-jdm-cars-ever-built/intro-1706652078.jpg" alt="Description of the image">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/2024-nissan-gt-r-121-1673621285.jpg?crop=0.922xw:1.00xh;0.0501xw,0&resize=980:*" alt="Description of the image">
+        
+    </header>
+        <div class="caption">These are some cars which favorite to me </div>
+             <a href="https://www.google.com/search?q=cars&sca_esv=e912ca26f44d8cea&sca_upv=1&rlz=1C1CHBF_enIN1114IN1114&udm=2&biw=1536&bih=730&sxsrf=ADLYWIKmZ9SCjUXMee7crTu9Szch2fE8cA%3A1718275450696&ei=es1qZuSUKv-Mvr0P9IKciAw&ved=0ahUKEwjkufXustiGAxV_hq8BHXQBB8EQ4dUDCBA&uact=5&oq=cars&gs_lp=Egxnd3Mtd2l6LXNlcnAiBGNhcnMyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABEjVMlDUCFjGG3ACeACQAQCYAYsBoAHTBaoBAzAuNrgBA8gBAPgBAZgCCKACjAaoAgLCAhAQABiABBixAxhDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgQQIxgnwgIHECMYJxjqAsICDhAAGIAEGLEDGIMBGIoFmAMBiAYBkgcDMi42oAe9Hw&sclient=gws-wiz-serp" target="_blank"> More </a>
+        </div>
+</body>
+</html>
+-----------------------------------------------------------------------------CSS---------------------------------------------------------------------------------------------------------
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+header {
+    background-color: beige;
+    color:black;
+    padding: 40px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 36px;
+    color: dimgray;
+}.image-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+img {
+    width: 30%;
+    max-width: 100%;
+    border-radius: 8%;
+
+}
+.caption {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
