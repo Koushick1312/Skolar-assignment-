@@ -1,0 +1,80 @@
+-------------------------------------html--------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+<h2>Weekly Schedule</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Timing</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>9:00 - 11:00 AM</td>
+            <td>Algorithms Lecture</td>
+            <td>Data Structures Lab</td>
+            <td>AI Lecture</td>
+            <td>Software Engineering Lecture</td>
+            <td>Databases Lecture</td>
+            <td>Project Work</td>
+            <td>Rest</td>
+        </tr>
+        <tr>
+            <td>1:00 - 3:00 PM</td>
+            <td>Study Group</td>
+            <td>Programming Practice</td>
+            <td>Machine Learning Lab</td>
+            <td>Group Project Meeting</td>
+            <td>Network Security Lab</td>
+            <td>Hackathon</td>
+            <td>Family Time</td>
+        </tr>
+        <tr>
+            <td>4:00 - 6:00 PM</td>
+            <td>Library Study</td>
+            <td>Club Meeting</td>
+            <td>Code Review Session</td>
+            <td>Research Work</td>
+            <td>TA Office Hours</td>
+            <td>Online Course</td>
+            <td>Recreation</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------css------------------------------------------------------------------
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: antiquewhite;
+        }
+        tr{
+            background-color: aquamarine;
+        }
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------
