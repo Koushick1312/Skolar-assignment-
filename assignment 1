@@ -1,0 +1,26 @@
+...html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction - About Myslef</title>
+</head>
+<body>
+    <header>
+        <h1>Introduction</h1>
+        <p>Myself Koushick Ganapathi Venkat M and I am from Tamilnadu. I am currently doing my Computer science and engineering in Tamilnadu college of Engineering at Coimbatore</p>
+    </header>
+    <section class="content">
+        <h1>My Hobbies</h1>
+        <ul>
+            <li>Reading</li>
+            <li>Writing</li>
+            <li>Exploring new technologies</li>
+            <li>Photography</li>
+        </ul>
+        <p>Check out my favorite website: <a href="https://in.pinterest.com/" target="_blank">@Pintrest</a></p>
+    </section>    
+</body>
+</html>
+.......
