@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+             text-align: center;
+        }
+        .movie-list {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .movie-item {
+            margin-bottom: 20px;
+        }
+        .movie-item h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .movie-item ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Movies</h1>
+    <div class="movie-list">
+        <ol>
+            <li class="movie-item">
+                <h2>Interstellar</h2>
+                <ul>
+                    <li>Year Released:2014 </li>
+                    <li>Main Actor: Matthew Mc Conaughey </li>
+                    <li>Description: It is an epic science fiction drama filmed by Christopher Nolan.</li>
+                </ul>
+            </li>
+            <li class="movie-item">
+                <h2>The Godfather</h2>
+                <ul>
+                    <li>Year Released: 1972</li>
+                    <li>Main Actor: Marlon Brando</li>
+                    <li>Description: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</li>
+                </ul>
+            </li>
+            <li class="movie-item">
+                <h2>Inception</h2>
+                <ul>
+                    <li>Year Released: 2010</li>
+                    <li>Main Actor: Leonardo DiCaprio</li>
+                    <li>Description: A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.</li>
+                </ul>
+            </li>
+            <li class="movie-item">
+                <h2>daVanci code</h2>
+                <ul>
+                    <li>Year Released: 2006</li>
+                    <li>Main Actor: Tom Hanks</li>
+                    <li>Description:It is an 2006 mystry thriller flim directed by Ron Howard.It is about deciphering the painting "The Last supper" done my leonardo DaVanci. </li>
+                </ul>
+            </li>
+            <li class="movie-item">
+                <h2>The Dark Knight</h2>
+                <ul>
+                    <li>Year Released: 2008</li>
+                    <li>Main Actor: Christian Bale</li>
+                    <li>Description: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
