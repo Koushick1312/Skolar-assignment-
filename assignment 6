@@ -1,0 +1,115 @@
+----------------------------------------------------------html------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ALL EYES ON REASI</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+       
+        <main>
+            <article>
+                <h2>All Eyes On Reasi</h2>
+                <p>All Eyes On Reasi: Recently, after an Israeli airstrike on a refugee camp in Rafah, southern Gaza, many people, including children, lost their lives. Following the attack, "All Eyes on Rafah" started trending on social media, with people expressing their opposition and calling for an end to the attacks. Similarly, in India, a trend called "All Eyes on Reasi" has emerged. Let's find out why "All Eyes on Reasi" is trending on social media.</p>
+                <h3>Incident</h3>
+                <p>A bus carrying pilgrims to a temple in Jammu and Kashmir's Reasi district fell into a gorge following a major terror attack, resulting in nine fatalities. The incident has drawn widespread condemnation across the nation, with several Bollywood celebrities expressing their sorrow and support for the victims and their families as All Eyes On Reasi trends on social media.</p>
+                <h4>Bollywood Celebrities Express Shock</h4>
+                <p>Actress-turned-politician Kangana Ranaut shared her reaction on Instagram, stating, "I strongly condemn the cowardly terrorist attack on the pilgrims in Reasi, Jammu & Kashmir. They were going for Vaishnodevi Darshan and terrorists open fired them only because they were Hindus. I pray for the departed and hope for the swift recovery of the injured."
+
+                Actress Rashmika Mandanna posted a heartfelt message on social media, writing, "Hurts my heart hearing about this, so many innocent lives ..</p>
+                
+            </article>
+                <aside class="related-links">
+                    <h2>Related Links</h2>
+                    <ul>
+                        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsamacharsangh.com%2Fall-eyes-on-reasi%2F&psig=AOvVaw2Ct-Fyl3GkEgfAa7HbAVOo&ust=1718371846003000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCPidrpDY2IYDFQAAAAAdAAAAABAR">Related news 1</a></li>
+                        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fthugeshh%2Fcomments%2F1dd7p6e%2Fall_eyes_on_reasi%2F&psig=AOvVaw2Ct-Fyl3GkEgfAa7HbAVOo&ust=1718371846003000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCPidrpDY2IYDFQAAAAAdAAAAABAY">Related news 2</a></li>
+                        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.economictimes.com%2Fnews%2Findia%2Fall-eyes-on-reasi-trends-on-social-media-as-outrage-grows-over-terrorist-attack-on-vaishno-devi-pilgrims%2Farticleshow%2F110868396.cms&psig=AOvVaw2Ct-Fyl3GkEgfAa7HbAVOo&ust=1718371846003000&source=images&cd=vfe&opi=89978449&ved=0CBUQjhxqFwoTCPidrpDY2IYDFQAAAAAdAAAAABAc">Related news 3</a></li>
+               
+                    </ul>
+                </aside>
+        </main>
+    <footer>
+        <p>Contact us at: info@abcnews.com</p>
+    </footer>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------css----------------------------------------------------------------------------------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 36px;
+}
+article {
+    flex: 3;
+    padding-right: 20px;
+   
+}
+
+
+aside {
+    flex: 3;
+    padding-left: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.related-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.related-links li {
+    margin: 5px 0;
+}
+.related-links a {
+    text-decoration: none;
+    color: #0066cc;
+}
+.related-links a:hover {
+    text-decoration: underline;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
