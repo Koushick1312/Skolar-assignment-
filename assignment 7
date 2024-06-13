@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------------------html-------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Players Example</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Media Player</h1>
+    </header>
+   
+
+        <div class="media-section">
+            <h2>Audio Player</h2>
+            <p>This is an example of an audio player. You can play, pause, and control the volume using the controls provided.</p>
+            <audio controls>
+                <source src="https://nmmm.ummn.nu/api/v1/download?sig=dB0ktTBNf7IkCnpOqzHOQaKNho47BC4M5J9t3HW1vw5C2aZOmnr%2BPHVB368743Xq%2BsFGVjxCeRONmFB8rx6P34v4KJZbNv23r3YPrs%2BCtenUe9AS%2FvuhiVYEYsLGuKdpG4weYhOI4Ba9oRPVCtx3KaFVV%2BQXavz1gLTIixY4wXafEIzRK4JN8uD5StCcfBisdoFut4tITMVboUetDFrGTMtwg4luy4nOmSG7HwLZr0X9XRwusUJDVtV7QeqPbQlCkiLptoLkrwdvcFZUOINQPTqtj%2FsU%2Bun49wavdky6evfLmrHklQT8Ve07gN0tf7cmhmt%2Fu%2FSK3Sa4Nyjs1xwZVA%3D%3D&v=/2Vv-BfVoq4g,2Vv-BfVoq4g&_=0.9923625935042304" type="audio/mpeg">
+            </audio>
+        </div>
+
+    <div class="media-section">
+        <h2>Video Player</h2>
+        <p>This is an example of a video player. You can play, pause, and control the volume using the controls provided. You can also view the video in full-screen mode.</p>
+        <video controls>
+            <source src="https://rr4---sn-ci5gup-h55y.googlevideo.com/videoplayback?expire=1718312759&ei=1wprZq6iLsrJi9oPxeSg0Ak&ip=46.4.48.22&id=o-ALafojN43dOQazXzJN15KSzr24-sp2P8HC8G2IbcqtKA&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AbKP-1O9HXKY65gCr3a1D1p49HETIWBl8pYg6oaJfR1RJjQ8eVAaNoAw0k7tkv-Z4schInK8EuQv1BOq&vprv=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=135.790&lmt=1705869088139478&c=MEDIA_CONNECT_FRONTEND&txp=4538434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhALuEig8gjxpoAoylxy56aAkv5LM-7W8Z0NEXw3__YKhrAiEAjJUOw14wE1_QxZCmrBmbWHqrXB0E-GdC-L0B4MLaUqA%3D&title=ily%20(i%20love%20you%20baby)%20-%20Surf%20Mesa%20%20ft.%20Emilee%20-%20acoustic%20%2F%20vocal%20%20(cover)&redirect_counter=1&rm=sn-4g5e6y7s&fexp=24350485&req_id=25b9821d06a4a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&mh=rB&mip=2401:4900:6271:13cd:e869:970c:aeb5:3ff0&mm=31&mn=sn-ci5gup-h55y&ms=au&mt=1718290550&mv=u&mvi=4&pl=44&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AHlkHjAwRQIhAN4WMhenPUyZ7JKBoV8d8XFctglQ_7vFLBn0FBuAs4Z8AiBwIyZHQ2Yf63Lls12SzyTKSUrcjpkdpXl1qY_HUcDYgA%3D%3D" type="video/mp4">
+            
+        </video>
+    </div>
+    
+</body>
+</html>
+----------------------------------------------------------------------------------------------------css-------------------------------------------------------------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+header {
+    background-color: #333;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+
+
+}
+ h2 {
+    color: #333;
+}
+.media-section {
+    margin-bottom: 40px;
+}
+audio, video {
+    display: block;
+    margin-top: 10px;
+    width: 576;
+    height: 322;
+    max-width: 100%;
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
